@@ -1,5 +1,8 @@
 #! /bin/bash
 
+# set postgres connection:
+PSQL="psql --username=freecodecamp --dbname=periodic_table --tuples-only -c"
+
 # if no arguments are provided:
 if [[ -z $1 ]]
 then
